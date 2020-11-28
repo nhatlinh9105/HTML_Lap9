@@ -1,0 +1,25 @@
+<!DOCTYPE HTML> <html>
+<head>
+    <style>
+        body {
+            margin: 0px; padding: 0px;
+        }
+        #mCanvas {
+              border: 1px solid black;
+        }
+    </style>
+    <script>
+        window.onload = function() {
+            var canvas = document.getElementById("mCanvas");
+            var ctext = canvas.getContext("2d");
+            varx=80;
+            vary=110;
+            ctext.font = "40pt Calibri";
+            ctext.lineWidth = 2;
+        };
+    </script>
+</head>
+<body>
+    <canvas id="mCanvas" width="360" height="200"></canvas>
+</body>
+</html>
